@@ -1,0 +1,169 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    /*background: linear-gradient(to right, white, white); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+    
+}
+
+
+
+.contenedor{   
+    width: 100%; 
+    display: flex;
+    color: rgba(23, 23, 23, 0.9);
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedor .formulario{
+    border: solid 10px rgba(87, 87, 87, 0.9);
+    width: 50%;
+    background: #F7F7F7;
+    border-radius: 10px;
+}
+
+.contenedor .formulario .heading{
+    text-align: center;
+}
+
+.contenedor .formulario form{
+    overflow: hidden;
+    padding: 1%;
+}
+
+.contenedor .formulario form .formNombre{    
+    width: 50%;
+    float: left;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor .formulario form .formApellidos{
+    
+    width: 50%;
+    float: right;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.contenedor .formulario form .formTarjeta{
+    
+    width: 50%;
+    float: left;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.contenedor .formulario form .formCvv{
+    
+    width: 50%;
+    float: left;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.contenedor .formulario form .formCvv input[type="text"]{
+    width: 25%;
+}
+
+
+.contenedor .formulario form .formFechaExpiracion{
+    
+    width: 83%;
+    float: left;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+contenedor .formulario form select{
+    border: solid 5px red;
+}
+
+
+.contenedor .formulario form .formFechaExpiracion #selectorMeses{
+
+    display: flex;
+    font-size: 25px;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+.contenedor .formulario form .formFechaExpiracion #selectorAnos{
+    
+    display: flex;
+    font-size: 25px;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+
+.contenedor .formulario form .formImgTarjetas{
+    
+    width: 17%;
+    float: left;
+    padding: 0%;
+    display: flex;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.formulario .formBoton{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .formulario form .formBoton input[type="submit"]{
+    
+    width: 30%;
+    padding: 1%;
+    border-radius: 10px;
+    background: rgb(104, 145, 162);
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+
+.contenedor .formulario form .formBoton input[type="submit"]:hover{
+    background:white;
+    cursor: pointer;
+}
+
+.formulario label{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.formulario input{
+    margin-bottom: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+.contenedor .formulario form .formImgTarjetas .visa{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.contenedor .formulario form .formImgTarjetas .mastercard{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
